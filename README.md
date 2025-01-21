@@ -6,15 +6,20 @@
 
 
 ## 1. Explicación del comando de ejecución de Docker
+Deberemos crear las carpetas donde se almacenarán los datos:
 ```
-docker run -ti --rm \
-           -e DISPLAY=$DISPLAY \
-	       -e artifactory_host='192.168.4.8:8080'\
-		   --name eclipse \
-           -v /tmp/.X11-unix:/tmp/.X11-unix \
-           -v `pwd`:/workspace \
-           -v $HOME/docker/eclipse/datos:/home/developer \
-           dockeruc/eclipse	
+sudo mkdir -p  $HOME/docker/eclipse/datos
+sudo chown -R $(whoami) $HOME/docker/eclipse
+sudo chgrp -R $(whoami) $HOME/docker/eclipse
+```
+Inicializar la variable `$DISPLAY` ejecutando en la terminar:
+```
+export DISPLAY=:0
+```
+Una vez inicializada la variable ejecutaremos el contendor con el entorno de desarrollo:
+
+```
+docker run -ti --rm -e DISPLAY=$DISPLAY -e artifactory_host='10.0.11.8:8080' --name eclipse -v /tmp/.X11-unix:/tmp/.X11-unix -v `pwd`:/workspace -v $HOME/docker/eclipse/datos:/home/developer dockeruc/eclipse	
 ```
 
 El parámetro `-ti` indica que el container ejecutará una terminal interactiva.
@@ -59,6 +64,7 @@ En VSCodium vamos a las extensiones y pinchamos en los tres puntitos refentes a 
 ![Extensions more actions](images/extensions-more-actions.png)
 
 Y pinchamos sobre "Intall from VSIX..."
+![Install VSIX](images/install-vsix.png)
 
 Tras seleccionar el fichero descargado, se intala la extensión y podremos verla en las extensiones instaladas.
 
