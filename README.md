@@ -49,21 +49,27 @@ Para instalar una extensión solo tenemos que pinchar en el icono inferior que a
 ![Extensions](images/extensions.png)
 
 En la ventana de la izquierda disponemos de un buscador de extensiones en el que introduciremos el nombre de la extensión, en este caso "SonarLint". Pinchamos sobre la extensión y nos muestra en una ventana más información sobre esta, encontrandose también un botón para instalarla directamente. 
+
 ![SonarLint](images/sonarlint.png)
 
 Una vez instalada podemos observar que podemos deshabilitar y desinstalar la extensión.
+
 ![SonarLint installed](images/sonarlint-installed.png)
 
-Si por un casual este ropositorio no cuenta con alguna extensión que deseamos siempre podemos ir al [marketplace de Microsoft](https://marketplace.visualstudio.com/vscode) y descargarla e importarla de forma manual. Para ello buscaremos la extensión deseada en este caso la de Python como ejemplo. 
+Si por un casual este ropositorio no cuenta con alguna extensión que deseamos siempre podemos ir al [marketplace de Microsoft](https://marketplace.visualstudio.com/vscode) y descargarla e importarla de forma manual. Para ello buscaremos la extensión deseada en este caso la de Python como ejemplo.
+
 ![Python extension](images/python-extension.png)
 
 Accedemos a la pestaña de "Version History" y descargamos la última versión para nuestro sistema operativo.
+
 ![Python extension download](images/python-extension-download.png)
 
 En VSCodium vamos a las extensiones y pinchamos en los tres puntitos refentes a más acciones sobre las extensiones.
+
 ![Extensions more actions](images/extensions-more-actions.png)
 
 Y pinchamos sobre "Intall from VSIX..."
+
 ![Install VSIX](images/install-vsix.png)
 
 Tras seleccionar el fichero descargado, se intala la extensión y podremos verla en las extensiones instaladas.
