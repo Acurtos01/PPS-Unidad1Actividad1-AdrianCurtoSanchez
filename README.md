@@ -92,6 +92,6 @@ Para que se detenga la ejecución del código en los putnos de ruptura deberemos
 
 ![Debug](images/debug.png)
 
-Como se puede observar en la ejecucuión de debug no indica la línea del punto de ruptura y en el menú de la izquierda pedemos ver los valores de las variabes. En la parte superior encontramos iconos que nos permiten seguir ejecutando el código por líneas, bloques, reiniciar la ejecución, parar la ejecución o continuar la ejecución.
+Como se puede observar en la ejecucuión de debug nos indica la línea del punto de ruptura y en el menú de la izquierda pedemos ver los valores de las variabes. En la parte superior encontramos iconos que nos permiten seguir ejecutando el código por líneas, bloques, reiniciar la ejecución, parar la ejecución o continuar la ejecución.
 
 ![Debugging](images/debugging.png)
