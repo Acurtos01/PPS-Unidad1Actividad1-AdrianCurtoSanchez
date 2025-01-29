@@ -72,3 +72,26 @@ Tras seleccionar el fichero descargado, se intala la extensión y podremos verla
 
 ## 3. Prueba de entornos
 
+Al abrir uno de los scripts de python inmediatamente SonarLint nos informa de ciertos problemas en el código que podemos corregir, marcandolos en el propio código como se puede apreciar en la captura de pantalla.
+
+![SonarLint ewarnings](images/sonarlint-warnings.png)
+
+Podemos ejecutar el script fácilmente clicando en el icono de play de la parte superior derecha.
+
+![Run python script](images/run-python-script.png)
+
+Vemos como se ejecuta el script de forma automática desde la terminal, pudiendo interactuar con la interfaz gráfica del programa python.
+
+![Calc execute](images/calc-execute.png)
+
+También tenemos la posibilidad de depurar el código estableciendo puntos de ruptura en los que se detendrá la ejecución para poder analizar variables.
+
+![Breack point](images/breack-point.png)
+
+Para que se detenga la ejecución del código en los putnos de ruptura deberemos ejecutar el código en modo debug. Al lado del icono de play tenemos un desplegable en el que nos permite ejecutar el modo debug.
+
+![Debug](images/debug.png)
+
+Como se puede observar en la ejecucuión de debug no indica la línea del punto de ruptura y en el menú de la izquierda pedemos ver los valores de las variabes. En la parte superior encontramos iconos que nos permiten seguir ejecutando el código por líneas, bloques, reiniciar la ejecución, parar la ejecución o continuar la ejecución.
+
+![Debugging](images/debugging.png)
